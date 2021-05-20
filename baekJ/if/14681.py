@@ -1,5 +1,4 @@
-x = int(input())
-y = int(input())
+x,y = map(int, input("두수를 입력하세요").split())
 
 if x > 0:
     if y > 0:
