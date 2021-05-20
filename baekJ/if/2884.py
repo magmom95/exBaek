@@ -1,4 +1,4 @@
-H, M = map(int, input().split())
+H, M = map(int, input("입력하세요 ").split())
 
 if M > 44:
     print(H, M-45)
