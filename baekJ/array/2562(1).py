@@ -1,8 +1,8 @@
 max = 0
-num = 0
+n = 0
 for i in range(1, 10):
     a = int(input())
     if a > max:
         max = a
-        num = i
-print(f'{max},{num}')
+        n = i
+print(f'{max},{n}')
