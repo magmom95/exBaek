@@ -1,10 +1,8 @@
-n = int(input())
+N = int(input())
+M = list(map(int, input().split()))
+M_max = max(M)
 
-a = list(map(int, input().split()))
-
-m = max(a)
-
-for i in range(n):
-    a[i] = a[i]/m*100
-    avg = sum(m)/n
-print(f'{avg}')
+for i in range(N):
+    M[i] = M[i]/M_max*100
+avg = sum(M) / N
+print("%.2f" % avg)
